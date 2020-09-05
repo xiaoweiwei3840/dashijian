@@ -30,8 +30,12 @@ function get() {
 
 
 
+<<<<<<< HEAD
 $('.layui-nav-item').on('click', function (e) {
     // e.preventDefault();
+=======
+$('#tuichu').on('click', function (e) {
+>>>>>>> index
     console.log(1);
     layer.confirm('确定退出登录?', {
         icon: 3,
