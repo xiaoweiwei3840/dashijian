@@ -44,6 +44,8 @@ $('#resetbtn').on('click', function (e) {
                 layer.msg('提交成功')
             }
         });
+        $(this)[0].reset()
+        window.parent.get()
 })
 
     
